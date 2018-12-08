@@ -28,7 +28,7 @@ from omeroweb.webclient.decorators import login_required
 
 import math
 from PIL import Image
-from cStringIO import StringIO
+from io import StringIO
 
 
 def index(request):
